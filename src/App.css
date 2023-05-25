@@ -1,5 +1,12 @@
 
-
+.container{
+  display: flex;
+  place-content: center;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: calc(50% - 50px); */
+  background-color: yellow;
+}
 .board-row{
   display: flex;
   justify-content: center;
@@ -35,8 +42,12 @@
   align-items: center;
   margin: 20px;
 }
-.container{
-  width: 100vh;
-  height: 100vh;
-  background-color: rgb(203, 218, 43);
+.btn{
+  color: white;
+  background-color: dodgerblue;
+  border-radius: 4px;
+  border: none;
+  height: 25px;
+  width: 100px;
+  cursor: pointer;
 }

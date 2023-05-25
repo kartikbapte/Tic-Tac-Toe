@@ -48,7 +48,7 @@ const Board = () => {
        <div className='container'>
         <div className='board-container'>
              <h1 className='header'>Tic Toc Toe Game</h1>
-            {isWinner ? (<>"{isWinner}" won the game <button onClick={handleReset}>Play Again</button></>) :
+            {isWinner ? (<>"{isWinner}" won the game <button className='btn'  onClick={handleReset}>Play Again</button></>) :
             (
             <>
                 <h4 className='heading'>Player  "{isXturn ? "X" : "O"}"  please move</h4>         
